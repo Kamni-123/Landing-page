@@ -196,7 +196,7 @@ const DemoComponent = () => {
   </a>
 </div>
 <div className="w-full mt-10">
-  <h1 className="text-3xl md:text-6xl text-center font-bold">
+  <h1 className="text-3xl md:text-6xl text-center font-bold max-w-2xl mx-auto p-4 sm:p-8 ">
     10x Your Pre-Production Pipeline
   </h1>
 </div>
@@ -209,7 +209,7 @@ const DemoComponent = () => {
       </h2>
       <div className="flex justify-center items-center p-20 w-screen gap-60">
         <h1 className=" w-1/2 font-bold text-6xl">
-          <div className="border-2 text-lg flex  w-24 mb-6 rounded-md gap-2 ml-2 p-2 items-center">Create<BsStars /></div>
+          <div className="border-2 text-lg flex  w-24 mb-6 max-w-2xl mx-auto sm:p-8 text-center rounded-md gap-2 ml-2 p-2 items-center">Create<BsStars /></div>
           Easy-to-Use, Professional Power...
           <h2 className="text-lg font-normal mt-5">
             Boords makes it easy for anyone in your organization to create
@@ -251,7 +251,7 @@ const DemoComponent = () => {
           </video>
         </a>
         
-        <h1 className=" w-1/2 font-bold text-6xl">
+        <h1 className=" w-1/2 font-bold text-6xl max-w-2xl mx-auto p-4 sm:p-8 text-center">
         <div className="border-2 rounded-md text-lg flex justify-centre w-32 gap-2 mb-8  items-center">Collaborate<  AiOutlineMessage /></div>
         Centralize Team Communication...
           <h2 className="text-lg font-normal mt-5">
@@ -263,12 +263,12 @@ const DemoComponent = () => {
 
         
       </div>
-      <div className="w-full rounded-none p-2 bg-red-50">
+      <div className="w-full rounded-none p-2 bg-yellow-50">
       <div className="flex justify-center items-center shadow-xl mb-5 w-1/2 ml-96 rounded-3xl  bg-gray-200 p-5  gap-2 "><FaStar color="yellow" /><FaStar color="yellow" /><FaStar color="yellow" /><FaStar  color="yellow"/><FaStar  color="yellow"/>Rated 4.9/5 by video profressionals
       </div>
       </div>
       <div className="w-full bg-yellow-50 max-w-screen-2xl">
-      <div className="text-black font-semibold w-1/2 text-center ml-96 mt-10 ">
+      <div className="text-black font-semibold w-1/2  ml-96 mt-10  max-w-2xl mx-auto p-4 sm:p-8 text-center">
         
           "Without Boords, storyboarding was the
           
@@ -282,7 +282,7 @@ const DemoComponent = () => {
               speeding up our pre-production immensely."
             
       </div>
-      <div className="flex justify-center items-center mt-5 gap-4 p-3">
+      <div className="flex justify-center items-center mt-5 gap-4 p-3 max-w-2xl mx-auto p-4 sm:p-8 text-center">
         <img
           className="rounded-full"
           src="https://boords.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fccli4xdzdc9p%2F1uYlDOaUATImOLYE897Qbo%2F646883522f808dad03fff1bd48f0f174%2Fimage.png%3Fw%3D100%26q%3D100%26fm%3Dwebp&w=64&q=75"
@@ -293,7 +293,7 @@ const DemoComponent = () => {
         
       </div>
       </div>
-      <div className="bg-yellow-50 w-screen  ">
+      <div className="bg-yellow-50 w-screen max-w-2xl mx-auto p-4 sm:p-8 text-center  ">
       <div className="ml-64 ">
         <button className="bg-pink-600 border w-1/4 mt-14 pl-14 pr-14 pb-4 pt-4 ml-96    font-bold text-lg rounded-2xl">
           Get started for Free
@@ -309,7 +309,7 @@ const DemoComponent = () => {
           </p>
           </div>
           </div>
-          <div className=" ml-64 mt-20">
+          <div className=" ml-64 mt-20 max-w-2xl mx-auto p-4 sm:p-8 text-center">
         <hi className="md:text-6xl ml-32 font-bold">
         Secure, Private, Professional
         </hi>
@@ -318,7 +318,7 @@ const DemoComponent = () => {
       <h2 className=" text-lg text-center w-1/2 ml-96 mt-10">
       We know controlling who sees what - be it teammates or clients - is crucial. Boords helps you keep storyboards private with password protection, project-level access control, and custom workspace URLs.
       </h2>
-      <div className="flex justify-center items-center  p-10 mt-20 w-fit border-2 border-black gap-60">
+      <div className="flex justify-center items-center  p-10 mt-20 w-fit border-2 border-black gap-60 max-w-2xl mx-auto  sm:p-8 text-center">
       <h1 className=" w-auto font-bold text-6xl">
         
         Share with Confidence
@@ -344,7 +344,7 @@ const DemoComponent = () => {
           </video>
           </a>
           </div>
-          <div className="flex justify-center items-center  p-10 mt-20 w-fit border-2 border-black gap-60">
+          <div className="flex justify-center items-center  p-10 max-w-2xl mx-auto sm:p-8 text-center mt-20 w-fit border-2 border-black gap-60">
       <h1 className=" w-auto font-bold text-6xl">
         
       Completely Confidential
