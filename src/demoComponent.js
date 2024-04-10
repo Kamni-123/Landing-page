@@ -6,210 +6,203 @@ import { FaStar } from "react-icons/fa6";
 
 const DemoComponent = () => {
   return (
-    <div className=" bg-red-50 flex flex-col justify-top items-center mt-16">
-      <div className="max-w-2xl w-full p-8 text-left">
-        <h1 className="text-5xl ml-10 font-bold text-black mb-4">
-          The Shortcut to
-        </h1>
-        <h1>
-          <span className="text-red-300 text-5xl font-bold">Effective </span>{" "}
-          <span className="text-5xl font-bold">Storyboards</span>
-        </h1>
-        <h2 className=" mt-14 text-2xl font-medium text-black ">
-          Broods are modern storyboarding tool that helps us to make video
-          professionals create client_ready storyboards 10x faster
-        </h2>
-        <button className="bg-pink-600 border mt-14 pl-14 pr-14 pb-4 pt-4 ml-48 font-bold text-lg rounded-2xl">
-          Get started for Free
-        </button>
-        <div className="ml-57">
-          <p className="mt-5 ml-56">
-            <span className="text-red-300 mt-4">4,961 </span>{" "}
-            <span className="">video profressionals</span>
-          </p>
-          <p className="text-gray-500 ml-52">
-            joined boords in the last 7 days
-          </p>
-          <p className="text-gray-500 font-medium text-center ml-10 mt-28">
-            BOORDS ARE TRUSTED BY WORLDS LEADING VIDEO AGENCIES.
-          </p>
-        </div>
-      </div>
-      <div className="p-8 m-16 gap-28 flex justify-center items-center bg-red-50 max-w-fit">
-        <a
-          className="bg-white"
-          href="https://www.aardman.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{ backgroundColor: "transparent" }}
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Aardman_Animations_2022.svg/1200px-Aardman_Animations_2022.svg.png"
-            width={350}
-            alt="Company Logo"
-          />
-        </a>
-        <a
-          className="bg-transparent"
-          href="https://www.framestore.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{ backgroundColor: "transparent" }}
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5FKa8YyLSc0YiIDp9ceIlmBVwgTUn_oNsBoMAuAoz&s"
-            alt="Company Logo"
-          />
-        </a>
-        <a
-          className="bg-transparent"
-          href="https://www.ideamachinestudio.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{ backgroundColor: "transparent" }}
-            src="https://static.wixstatic.com/media/73987b_d5a74caea22f4f92952b53ea9e18b644~mv2.png/v1/fill/w_279,h_79,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/73987b_d5a74caea22f4f92952b53ea9e18b644~mv2.png "
-            alt="Company Logo"
-          />
-        </a>
-        <a
-          className="bg-transparent"
-          href="https://www.partizan.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{ backgroundColor: "transparent" }}
-            src="https://d3bzyjrsc4233l.cloudfront.net/company_office/GqjoIkN9.jpeg"
-            width="200"
-            alt="Company Logo"
-          />
-        </a>
+    <div className="bg-yellow-50 min-h-screen">
+      <div className="max-w-2xl mx-auto p-4 sm:p-8 text-center">
+  <h1 className="text-2xl sm:text-3xl font-bold text-black mb-2 sm:mb-4">
+    The Shortcut to
+  </h1>
+  <h1>
+    <span className="text-red-300 text-4xl sm:text-5xl font-bold">Effective </span>{" "}
+    <span className="text-4xl sm:text-5xl font-bold">Storyboards</span>
+  </h1>
+  <h2 className="mt-6 sm:mt-14 text-lg sm:text-2xl font-medium text-black ">
+    Broods are a modern storyboarding tool that helps video professionals create client-ready storyboards 10x faster.
+  </h2>
+  <button className="bg-pink-600 border mt-6 sm:mt-14 pl-10 pr-10 pb-2 sm:pb-4 pt-2 sm:pt-4 ml-8 sm:ml-30 font-bold text-sm sm:text-lg rounded-2xl">
+    Get started for Free
+  </button>
+  <div className="mt-6 sm:mt-14">
+    <p className="text-sm sm:text-lg ml-4 sm:ml-30">
+      <span className="text-red-300">4,961 </span>{" "}
+      <span className="">video professionals</span>
+    </p>
+    <p className="text-xs sm:text-sm text-gray-500 ml-4 sm:ml-30">
+      joined Boords in the last 7 days
+    </p>
+    <p className="text-xs sm:text-sm text-gray-500 font-medium text-center mt-8 ml-4 sm:ml-10">
+      BOORDS ARE TRUSTED BY WORLD'S LEADING VIDEO AGENCIES.
+    </p>
+  </div>
+</div>
 
-        <a
-          className="bg-transparent"
-          href="https://www.planetnutshell.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{ backgroundColor: "transparent" }}
-            src="https://planetnutshell.com/wp-content/uploads/2023/01/2023-PN-Logo-final-1.png"
-            alt="Company Logo"
-          />
-        </a>
-        <a
-          className="bg-transparent"
-          href="https://www.brandculture.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{ backgroundColor: "transparent" }}
-            src="https://brandculture.com/bcc-content/uploads/2017/07/brandculture_logo_gray.png"
-            alt="Company Logo"
-          />
-        </a>
-        <a
-          className="bg-transparent"
-          href="https://movingbrands.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{ backgroundColor: "transparent" }}
-            src="https://www.graphicdesignforum.com/uploads/default/optimized/3X/4/5/45bf70115bacdd875c2116be2f7f9254a9afa652_2_517x258.png"
-            width={350}
-            alt="Company Logo"
-          />
-        </a>
-      </div>
-      <div className="text-black font-semibold w-1/3 mt-10 ">
-        <span className="">
-          "Without Boords, storyboarding was the
-          <span className="">
-            most painful part of the production process. With Boords, it's the
-            <span className="">
-              painless, super easy to use, brilliantly collaborative tool for
-              both our team and clients,
-            </span>
-            <span className="">
-              {" "}
-              speeding up our pre-production immensely."
-            </span>
-          </span>
-        </span>
-      </div>
-      <div className="flex justify-center items-center mt-5 gap-4 p-3">
-        <img
-          className="rounded-full"
-          src="https://i.pinimg.com/280x280_RS/6b/c6/07/6bc607d69e90735b6234e17ab9cc10c4.jpg"
-          alt="Lewis darbi"
-          width={50}
-        />
-        <span className=" mt-5 font-semibold">Lewis Darby</span>
-        <span className="text-gray-600 mt-5">Founder, Yard B</span>
-      </div>
-      <div className="w-screen  p-20">
-        <hi className="text-6xl ml-72 font-bold">
-          Creativity-Enabling AI Tools
-        </hi>
-        <h2 className="mt-5 w-1/2 ml-80 text-lg">
-          Use AI to enhance not replace your creative process. Dramatically
-          increase your storyboarding capacity so you can handle more projects
-          and create your best work.
-        </h2>
-      </div>
-      <div className="flex justify-center items-center gap-10 rounded-lg">
-        <a
-          className="bg-white rounded-lg"
-          href="https://www.aardman.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{ backgroundColor: "transparent" }}
-            src="https://boords.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fccli4xdzdc9p%2F5kePmT4pOraUzdRYJc5RLg%2F378de8853b59019f9ac365daa6b8248e%2Fbuild-characters.jpg&w=1080&q=75"
-            width={350}
-            alt="Company Logo"
-          />
-        </a>
-        <a
-          className="bg-white"
-          href="https://www.aardman.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{ backgroundColor: "transparent" }}
-            src="https://boords.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fccli4xdzdc9p%2F4WvvINko5IUaxzQcGuqwMY%2Fa6f0e88cf8468503233eb264df0171bd%2Fgenerate-scenes.jpg&w=1080&q=75"
-            width={350}
-            alt="Company Logo"
-          />
-        </a>
-        <a
-          className="bg-white"
-          href="https://www.aardman.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{ backgroundColor: "transparent" }}
-            src="https://boords.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fccli4xdzdc9p%2F1hncuIXHSv7fTcEBkqoLlu%2Ff64fdd29d23aa64d1e6556f2659131a5%2Fcreate-variations.jpg&w=1080&q=75"
-            width={350}
-            alt="Company Logo"
-          />
-        </a>
-      </div>
-      <div></div>
-      <div className=" w-screen ml-64 mt-20">
-        <hi className="md:text-6xl ml-28 font-bold">
-          10x Your Pre-Production Pipeline
-        </hi>
-      </div>
+<div className="p-4 sm:p-8 gap-28 sm:gap-28 flex flex-wrap justify-center items-center bg-white w-full">
+  <a
+    className="bg-white p-2"
+    href="https://www.aardman.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      className="w-48 sm:w-20"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Aardman_Animations_2022.svg/1200px-Aardman_Animations_2022.svg.png"
+      alt="Company Logo"
+    />
+  </a>
+  <a
+    className="bg-transparent p-2 w-48 sm:w-20"
+    href="https://www.framestore.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      className=" w-48 sm:w-20"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5FKa8YyLSc0YiIDp9ceIlmBVwgTUn_oNsBoMAuAoz&s"
+      alt="Company Logo"
+    />
+  </a>
+  <a
+    className="bg-transparent p-2  w-48 sm:w-20"
+    href="https://www.ideamachinestudio.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      className="w-48 sm:w-20"
+      src="https://static.wixstatic.com/media/73987b_d5a74caea22f4f92952b53ea9e18b644~mv2.png/v1/fill/w_279,h_79,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/73987b_d5a74caea22f4f92952b53ea9e18b644~mv2.png"
+      alt="Company Logo"
+    />
+  </a>
+  <a
+    className="bg-transparent p-2  w-48 sm:w-20"
+    href="https://www.partizan.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      className=" w-48 sm:w-20"
+      src="https://d3bzyjrsc4233l.cloudfront.net/company_office/GqjoIkN9.jpeg"
+      alt="Company Logo"
+    />
+  </a>
+  <a
+    className="bg-transparent p-2  w-48 sm:w-20"
+    href="https://www.planetnutshell.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      className=" w-48 sm:w-20"
+      src="https://planetnutshell.com/wp-content/uploads/2023/01/2023-PN-Logo-final-1.png"
+      alt="Company Logo"
+    />
+  </a>
+  <a
+    className="bg-transparent p-2  w-48 sm:w-20"
+    href="https://www.brandculture.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      className=" w-48 sm:w-20"
+      src="https://brandculture.com/bcc-content/uploads/2017/07/brandculture_logo_gray.png"
+      alt="Company Logo"
+    />
+  </a>
+  <a
+    className="bg-transparent p-2  w-48 sm:w-20"
+    href="https://movingbrands.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      className=" w-48 sm:w-20"
+      src="https://www.graphicdesignforum.com/uploads/default/optimized/3X/4/5/45bf70115bacdd875c2116be2f7f9254a9afa652_2_517x258.png"
+      alt="Company Logo"
+    />
+  </a>
+</div>
 
-      <h2 className=" text-lg w-1/2 mt-10">
+<div className="text-black font-semibold ml-96 w-full sm:w-1/2 text-center mt-10 ">
+  
+    "Without Boords, storyboarding was the
+   
+      most painful part of the production process. With Boords, it's the
+      
+        painless, super easy to use, brilliantly collaborative tool for both our team and clients,
+     
+        speeding up our pre-production immensely."
+
+</div>
+<div className="flex flex-col sm:flex-row justify-center items-center sm:items-start mt-5 gap-4 p-3">
+  <img
+    className="rounded-full"
+    src="https://i.pinimg.com/280x280_RS/6b/c6/07/6bc607d69e90735b6234e17ab9cc10c4.jpg"
+    alt="Lewis darbi"
+    width={50}
+  />
+  <div className="flex flex-col items-center justify-center">
+    <span className="mt-2 font-semibold">Lewis Darby</span>
+    <span className="text-gray-600">Founder, Yard B</span>
+  </div>
+</div>
+<div className="w-full p-4 sm:p-20">
+  <h1 className="text-3xl sm:text-6xl text-center ml-72 mr-60 sm:text-left font-bold">
+    Creativity-Enabling AI Tools
+  </h1>
+  <h2 className="mt-5  sm:text-center  text-base sm:text-lg">
+    Use AI to enhance not replace your creative process. Dramatically increase your storyboarding capacity so you can handle more projects and create your best work.
+  </h2>
+</div>
+
+<div className="flex flex-col justify-center items-center gap-10 md:flex-row md:justify-center md:gap-4 lg:gap-10 rounded-lg">
+  <a
+    className="bg-white rounded-lg"
+    href="https://www.aardman.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      style={{ backgroundColor: "transparent" }}
+      src="https://boords.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fccli4xdzdc9p%2F5kePmT4pOraUzdRYJc5RLg%2F378de8853b59019f9ac365daa6b8248e%2Fbuild-characters.jpg&w=1080&q=75"
+      width={350}
+      alt="Company Logo"
+    />
+  </a>
+  <a
+    className="bg-white rounded-lg"
+    href="https://www.aardman.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      style={{ backgroundColor: "transparent" }}
+      src="https://boords.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fccli4xdzdc9p%2F4WvvINko5IUaxzQcGuqwMY%2Fa6f0e88cf8468503233eb264df0171bd%2Fgenerate-scenes.jpg&w=1080&q=75"
+      width={350}
+      alt="Company Logo"
+    />
+  </a>
+  <a
+    className="bg-white rounded-lg"
+    href="https://www.aardman.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      style={{ backgroundColor: "transparent" }}
+      src="https://boords.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fccli4xdzdc9p%2F1hncuIXHSv7fTcEBkqoLlu%2Ff64fdd29d23aa64d1e6556f2659131a5%2Fcreate-variations.jpg&w=1080&q=75"
+      width={350}
+      alt="Company Logo"
+    />
+  </a>
+</div>
+<div className="w-full mt-10">
+  <h1 className="text-3xl md:text-6xl text-center font-bold">
+    10x Your Pre-Production Pipeline
+  </h1>
+</div>
+
+
+      <h2 className=" text-lg w-1/2 sm:ml-96 mt-10">
         Boords helps you achieve a fast, hassle-free pre-production process so
         you can spend more time being creative. You'll wonder how you lived
         without it...
@@ -316,17 +309,17 @@ const DemoComponent = () => {
           </p>
           </div>
           </div>
-          <div className=" w-screen ml-64 mt-20">
-        <hi className="md:text-6xl ml-52 font-bold">
+          <div className=" ml-64 mt-20">
+        <hi className="md:text-6xl ml-32 font-bold">
         Secure, Private, Professional
         </hi>
       </div>
 
-      <h2 className=" text-lg text-center w-1/2 mt-10">
+      <h2 className=" text-lg text-center w-1/2 ml-96 mt-10">
       We know controlling who sees what - be it teammates or clients - is crucial. Boords helps you keep storyboards private with password protection, project-level access control, and custom workspace URLs.
       </h2>
       <div className="flex justify-center items-center  p-10 mt-20 w-fit border-2 border-black gap-60">
-      <h1 className=" w-96 font-bold text-6xl">
+      <h1 className=" w-auto font-bold text-6xl">
         
         Share with Confidence
           <h2 className="text-lg font-normal mt-5">
@@ -352,7 +345,7 @@ const DemoComponent = () => {
           </a>
           </div>
           <div className="flex justify-center items-center  p-10 mt-20 w-fit border-2 border-black gap-60">
-      <h1 className=" w-96 font-bold text-6xl">
+      <h1 className=" w-auto font-bold text-6xl">
         
       Completely Confidential
           <h2 className="text-lg font-normal mt-5">
