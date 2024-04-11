@@ -293,24 +293,24 @@ const DemoComponent = () => {
         
       </div>
       </div>
-      <div className="bg-yellow-50 w-screen max-w-2xl mx-auto p-4 sm:p-8 text-center  ">
+      <div className="bg-yellow-50 w-screen text-center  ">
       <div className="ml-64 ">
-        <button className="bg-pink-600 border w-1/4 mt-14 pl-14 pr-14 pb-4 pt-4 ml-96    font-bold text-lg rounded-2xl">
+        <button className="bg-pink-600 border w-1/4 mt-14 pl-14 pr-14 pb-4 pt-4 mr-52   font-bold text-lg rounded-2xl">
           Get started for Free
         </button>
         </div>
-        <div className="ml-96 mr-96">
-          <p className="mt-5 ml-80">
-            <span className="text-red-300 mt-4">4,961 </span>
+        <div className="m">
+          <p className="mt-5  ">
+            <span className="text-red-300 mt-4 ml-16">4,961 </span>
             <span className="">video profressionals</span>
           </p>
-          <p className="text-gray-500 ml-72">
+          <p className="text-gray-500 ml-12">
             joined boords in the last 7 days
           </p>
           </div>
           </div>
-          <div className=" ml-64 mt-20 max-w-2xl mx-auto p-4 sm:p-8 text-center">
-        <hi className="md:text-6xl ml-32 font-bold">
+          <div className="mt-20  text-center">
+        <hi className="md:text-6xl  font-bold">
         Secure, Private, Professional
         </hi>
       </div>
@@ -318,7 +318,7 @@ const DemoComponent = () => {
       <h2 className=" text-lg text-center w-1/2 ml-96 mt-10">
       We know controlling who sees what - be it teammates or clients - is crucial. Boords helps you keep storyboards private with password protection, project-level access control, and custom workspace URLs.
       </h2>
-      <div className="flex justify-center items-center  p-10 mt-20 w-fit border-2 border-black gap-60 max-w-2xl mx-auto  sm:p-8 text-center">
+      <div className="flex justify-center items-center  p-20 mt-20 w-fit border-2 border-black gap-60 m-20 ">
       <h1 className=" w-auto font-bold text-6xl">
         
         Share with Confidence
@@ -335,7 +335,7 @@ const DemoComponent = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <video width={550} controls>
+          <video width={850}  controls>
             <source
               src="https://videos.ctfassets.net/ccli4xdzdc9p/63KcLzStjLcRg696frBpcr/efdd2cd338cad2ec14dfa95b00fa6c14/6._Share_with_Confidence.mp4"
               type="video/mp4"
@@ -344,7 +344,7 @@ const DemoComponent = () => {
           </video>
           </a>
           </div>
-          <div className="flex justify-center items-center  p-10 max-w-2xl mx-auto sm:p-8 text-center mt-20 w-fit border-2 border-black gap-60">
+          <div className="flex justify-center items-center  p-20 mt-20 w-fit border-2 border-black gap-60 m-20 ">
       <h1 className=" w-auto font-bold text-6xl">
         
       Completely Confidential
@@ -361,7 +361,7 @@ const DemoComponent = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <video width={550} controls>
+          <video width={950} controls>
             <source
               src="https://videos.ctfassets.net/ccli4xdzdc9p/31piAwNxnUKZ4709wPd8Mp/cb77f8a24ca91c5c84d2b7586366af02/7._Completely_Confidential.mp4"
               type="video/mp4"
